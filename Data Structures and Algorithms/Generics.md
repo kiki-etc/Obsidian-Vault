@@ -3,8 +3,6 @@ At its core, ***Generics*** means ***parameterized*** types. Parameterized types
 
 >[!question]- Why the name generic?
 >Generic classes are templates suitable for any parameter type
->.
-
 
 ```Java
 // a non-generic ArrayList (Java 1.4)
@@ -22,5 +20,9 @@ class ArrayList<T> {
 // as per runtime, requirement T is replaced with provided type
 ArrayList<String> l = new ArrayList<String>();
 // the statement is interpreted as followed, based on the above code
-
+class ArrayList<String> {
+	add (String o);
+	String get(Int index);
+}
 ```
+
