@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Intro Class.md",
+                "file": "Data Structures and Algorithms/Generics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures and Algorithms/Intro Class.md",
+                "file": "Data Structures and Algorithms/Generics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures and Algorithms/Intro Class.md",
+                "file": "Data Structures and Algorithms/Generics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures and Algorithms/Intro Class.md"
+                "file": "Data Structures and Algorithms/Generics.md"
               }
             }
           }
@@ -148,7 +148,10 @@
   },
   "active": "19ad9f08468be995",
   "lastOpenFiles": [
-    "Data Structures and Algorithms/Arrays.md",
-    "Data Structures and Algorithms/Intro Class.md"
+    "Data Structures and Algorithms/Java Collections Framework.md",
+    "Data Structures and Algorithms/Generics.md",
+    "Data Structures and Algorithms/Strings and Enumerated Types.md",
+    "Data Structures and Algorithms/Intro Class.md",
+    "Data Structures and Algorithms/Arrays.md"
   ]
 }
