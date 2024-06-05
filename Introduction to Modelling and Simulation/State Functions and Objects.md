@@ -21,3 +21,5 @@ np.random.seed(20) # this line sets the generator so the results are the same ev
 if flip(0.5):
 	print('heads')
 ```
+
+
