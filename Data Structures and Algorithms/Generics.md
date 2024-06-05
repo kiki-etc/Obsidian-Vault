@@ -26,3 +26,28 @@ class ArrayList<String> {
 }
 ```
 
+>[!note] The Need for Generics
+>Generics are introduced to:
+>- provide type safety
+>- resolve type-casting problems
+>
+>Code reusability: helps in designing classes, methods and interfaces suitable to several data types
+>The key benefit of generics is enabling errors to be detected at compile time rather than runtime. 
+
+## Basic Rules
+<br>As a _base type_ a parent reference (superclass) can be used to hold an object of its child class, but not for parameter types.
+
+```Java
+
+```
+<br>The _parameter types_ should be reference types, **not** primitive types.
+
+```Java
+
+```
+<br>Creating and testing a generic class:
+
+```Java
+
+```
+

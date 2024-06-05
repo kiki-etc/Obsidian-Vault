@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Generics.md",
+                "file": "Data Structures and Algorithms/Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7430683ab5dbbc9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to Modelling and Simulation/State Functions and Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ea86a8b187163d1d",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures and Algorithms/Generics.md",
+                "file": "Data Structures and Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures and Algorithms/Generics.md",
+                "file": "Data Structures and Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures and Algorithms/Generics.md"
+                "file": "Data Structures and Algorithms/Algorithms.md"
               }
             }
           }
@@ -149,8 +160,16 @@
   },
   "active": "19ad9f08468be995",
   "lastOpenFiles": [
-    "Data Structures and Algorithms/Java Collections Framework.md",
+    "Introduction to Modelling and Simulation/State Functions and Objects.md",
+    "Introduction to Modelling and Simulation/Computation with Units.md",
+    "Data Structures and Algorithms/Algorithms.md",
+    "Research Methods/Research Methods Journal.md",
+    "Software Engineering/Introduction to Software Engineering.md",
+    "Introduction to Artificial Intelligence/Machine Learning.md",
     "Data Structures and Algorithms/Generics.md",
+    "Introduction to Modelling and Simulation/Modelling and Simulation in Jupyter Notebooks.md",
+    "Data Structures and Algorithms/Java Collections Framework.md",
+    "Data Structures and Algorithms/Formal Analysis of Algorithms.md",
     "Data Structures and Algorithms/Strings and Enumerated Types.md",
     "Data Structures and Algorithms/Intro Class.md",
     "Data Structures and Algorithms/Arrays.md"
