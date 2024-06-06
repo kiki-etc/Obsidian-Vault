@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Algorithms.md",
+                "file": "Introduction to Modelling and Simulation/State Functions and Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Modelling and Simulation/State Functions and Objects.md",
+                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ea86a8b187163d1d",
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures and Algorithms/Algorithms.md",
+                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures and Algorithms/Algorithms.md",
+                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures and Algorithms/Algorithms.md"
+                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md"
               }
             }
           }
@@ -158,14 +160,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19ad9f08468be995",
+  "active": "7430683ab5dbbc9f",
   "lastOpenFiles": [
     "Introduction to Modelling and Simulation/State Functions and Objects.md",
+    "Research Methods/Research Methods Journal.md",
+    "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
     "Data Structures and Algorithms/Algorithms.md",
     "Introduction to Modelling and Simulation/Computation with Units.md",
-    "Research Methods/Research Methods Journal.md",
     "Software Engineering/Introduction to Software Engineering.md",
-    "Introduction to Artificial Intelligence/Machine Learning.md",
     "Data Structures and Algorithms/Generics.md",
     "Introduction to Modelling and Simulation/Modelling and Simulation in Jupyter Notebooks.md",
     "Data Structures and Algorithms/Java Collections Framework.md",
