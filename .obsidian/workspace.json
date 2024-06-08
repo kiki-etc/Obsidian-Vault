@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ea86a8b187163d1d",
@@ -162,14 +161,15 @@
   },
   "active": "7430683ab5dbbc9f",
   "lastOpenFiles": [
-    "Introduction to Modelling and Simulation/State Functions and Objects.md",
-    "Research Methods/Research Methods Journal.md",
+    "Introduction to Artificial Intelligence/Numpy, Pandas, Databases.md",
     "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
-    "Data Structures and Algorithms/Algorithms.md",
+    "Introduction to Modelling and Simulation/State Functions and Objects.md",
     "Introduction to Modelling and Simulation/Computation with Units.md",
+    "Introduction to Modelling and Simulation/Modelling and Simulation in Jupyter Notebooks.md",
+    "Research Methods/Research Methods Journal.md",
+    "Data Structures and Algorithms/Algorithms.md",
     "Software Engineering/Introduction to Software Engineering.md",
     "Data Structures and Algorithms/Generics.md",
-    "Introduction to Modelling and Simulation/Modelling and Simulation in Jupyter Notebooks.md",
     "Data Structures and Algorithms/Java Collections Framework.md",
     "Data Structures and Algorithms/Formal Analysis of Algorithms.md",
     "Data Structures and Algorithms/Strings and Enumerated Types.md",

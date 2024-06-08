@@ -65,16 +65,15 @@ One prominent method for optimizing regressors seems to be to make $h(x)$ close 
 
 This is the ***cost function***.
 ## Gradient Descent Algorithm
-<br>Gradient Descent is a very generic optimization algorithm capable of finding optimal solutions to a wide range of problems. The general idea of Gradient Descent is to tweak parameters iteratively in order to minimize a cost function. For example, the stochastic gradient descent.
+<br>The general idea of Gradient Descent is to tweak parameters iteratively in order to minimize a cost function.
 <br>The algorithm measures the local gradient of the error function with regards to the parameter vector θ, and it goes in the direction of descending gradient. Once the gradient is zero, you have reached a minimum.
 Concretely, you start by filling θ with random values (random initialization), and then you improve it gradually, taking small steps at a time, each step attempting to decrease the cost function (e.g., the MSE), until the algorithm converges to a minimum.
 
 >[!note]- Hyperparameters
->An important parameter is the size of the steps, determined by the learning rate hyperparameter. A small learning rate is too small implies several iterations before  convergence. A high learning rate, however, could cause a jump across the minimum, which could cause divergence, with larger and larger values.
+>An important parameter is the size of the steps, determined by the learning rate hyperparameter. A small learning rate implies several iterations before convergence. A high learning rate, however, could cause a jump across the minimum, which could cause divergence, with larger and larger values.
 
 #### Types of Gradient Descent
-<br>➔ The method that looks at every example in the entire training set on every step  
-and is called batch gradient descent.
+<br>➔ The method that looks at every example in the entire training set on every step is called batch gradient descent.
 <br>➔ Alternatively, you repeatedly run through the training set and (each time you encounter a training example) you update the parameters according to the gradient of the error with respect to that single training example only. This algorithm is called stochastic gradient descent (also incremental gradient descent).
 # Evaluation of Models
 <br>Common metrics for evaluation.
@@ -85,7 +84,7 @@ and is called batch gradient descent.
 <br>➔ MAE is the easiest to understand, because it's the average error.
 ➔ MSE is more popular than MAE, because MSE "punishes" larger errors, which tends to be useful in the real world.  
 ➔ RMSE is even more popular than MSE, because RMSE is interpretable in the "y" units.  
-➔ All of these are **loss functions**, because we want to minimize them
+➔ All of these are **loss functions**, because we want to minimize them.
 
 ```Python
 from sklearn import metrics
