@@ -29,7 +29,7 @@ ArrayList list = new ArrayList();
 ```Java
 ArrayList<String> stringList = new ArrayList<>();
 ```
-<br>In both cases, you should ==`import java.util.ArrayList`==. Primitive types cannot be used with generic ArrayLists, unless their upper class types are used.
+<br>In both cases, you should `import java.util.ArrayList`. Primitive types cannot be used with generic ArrayLists, unless their upper class types are used.
 
 ### ArrayList operations
 
@@ -64,15 +64,15 @@ For example, assuming a non-generic ArrayList called `mixedList`, you can loop t
 >	System.out.println(element);
 
 ## LinkedList
-<br>A non-generic LinkedList can hold any type of object because it stores elements as `Object` references.
+A non-generic LinkedList can hold any type of object because it stores elements as `Object` references.
 ```Java
 LinkedList list = new LinkedList();
 ```
-<br>A generic LinkedList allows you to specify the type of elements it can contain.
+A generic LinkedList allows you to specify the type of elements it can contain.
 ```Java
 LinkedList<String> stringList = new LinkedList<>();
 ```
-<br>In both cases, you should ==`import java.util.LinkedList`==. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
+In both cases, you should `import java.util.LinkedList`. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
 
 ### LinkedList operations
 
@@ -108,14 +108,13 @@ stringList.clear();
 > ```
 
 
-
 ## HashSet
-<br>A HashSet is an implementation of the `Set` interface in Java. It does not allow duplicate elements. Elements are stored using a hash table and their order is not maintained. Because of its implementation, it provides constant-time performance for basic operations like add, remove, contains, and size (assuming the hash function disperses the elements properly among the buckets).
+A HashSet is an implementation of the `Set` interface in Java. It does not allow duplicate elements. Elements are stored using a hash table and their order is not maintained. Because of its implementation, it provides constant-time performance for basic operations like add, remove, contains, and size (assuming the hash function disperses the elements properly among the buckets).
 
 >[!warning] HashSet is not thread-safe
 >HashSet is not synchronized, so it's not thread-safe. If multiple threads access a hash set concurrently, and at least one of the threads modifies the set structurally, it must be synchronized externally.
 
-You should ==`import java.util.HashSet`==. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
+You should `import java.util.HashSet`. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
 
 ### HashSet Operations
 
@@ -143,9 +142,9 @@ for (String fruit : hashSet) {
 > ```
 
 ## TreeSet
-<br>TreeSet is an implementation of the `SortedSet` interface in Java. It stores elements in a sorted order (natural ordering or by a comparator provided at construction time). They do not allow duplicate elements. (TreeSet is implemented using a Red-Black tree, which ensures that the elements are always sorted.)
+TreeSet is an implementation of the `SortedSet` interface in Java. It stores elements in a sorted order (natural ordering or by a comparator provided at construction time). They do not allow duplicate elements. (TreeSet is implemented using a Red-Black tree, which ensures that the elements are always sorted.)
 
-You should ==`import java.util.TreeSet`==. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
+You should `import java.util.TreeSet`. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
 
 >[!caution] Remember
 >- Elements in a TreeSet must either implement the `Comparable` interface or be provided with a custom comparator during TreeSet creation.
@@ -181,7 +180,7 @@ for (String fruit : treeSet) {
 # Map(s)
 
 # Iterator
-<br>The `Iterator` interface in Java provides a way to iterate over a collection of elements. It allows sequential access to the elements of a collection, one at a time. Iterator provides methods to check if there are more elements available, retrieve the next element, and remove elements during iteration.
+The `Iterator` interface in Java provides a way to iterate over a collection of elements. It allows sequential access to the elements of a collection, one at a time. Iterator provides methods to check if there are more elements available, retrieve the next element, and remove elements during iteration.
 <br>**Key Characteristics**:
 1. **Traversal**: Allows traversal of a collection of elements.
 2. **Forward-Only**: Iterators are generally forward-only, meaning they cannot move backward.

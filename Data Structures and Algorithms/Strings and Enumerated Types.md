@@ -1,1 +1,0 @@
-A string is an array of characters

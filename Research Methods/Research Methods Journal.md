@@ -45,3 +45,12 @@ j.           - **Application**: The research topic is more specific to
 
 k.        - **Comparative Analysis**: The research topic involves a comparative analysis between a developed country (the US) and a developing country (Ghana), while the article primarily focuses on the technical and methodological aspects of NLP development for African languages without such a comparative element.
 
+### Methodology
+3.1 Introduction
+3.2 Philosophies (eg. critical realism, positivism, interpretivism, postmodernism, etc.)
+3.3 Research design
+3.4 Sampling
+3.5 Data collection instruments
+3.6 Data analysis
+
+Study population comes before or after research philosophies.
