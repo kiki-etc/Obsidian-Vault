@@ -74,6 +74,9 @@ LinkedList<String> stringList = new LinkedList<>();
 ```
 In both cases, you should `import java.util.LinkedList`. Primitive types cannot be used with generic LinkedLists, unless their upper class types are used.
 
+A Linked implementation is inherently dynamic, compared to the `ArrayList` implementation because it doesn't occupy a fixed space in memory. Each item in the List contains two values, the actual value and the address of the next item in the sequence. A `LinkedList` is an ordered sequence just like `ArrayList`.
+The process of moving through the nodes of a `LinkedList` in a sequential order to examine the nodes is called ***traversing*** the list.
+
 ### LinkedList operations
 
 ```Java
@@ -174,8 +177,6 @@ for (String fruit : treeSet) {
 > 	System.out.println(element);
 > }
 > ```
-
-
 
 # Map(s)
 

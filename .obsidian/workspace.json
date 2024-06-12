@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "89e8faf5942656b9",
+            "id": "1961e197770f9040",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Introduction to Software Engineering.md",
-                "mode": "source",
+                "file": "Data Structures and Algorithms/Java Collections Framework.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Diagrams and the Final Project.md",
+                "file": "Data Structures and Algorithms/Java Collections Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Diagrams and the Final Project.md",
+                "file": "Data Structures and Algorithms/Java Collections Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Diagrams and the Final Project.md"
+                "file": "Data Structures and Algorithms/Java Collections Framework.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19ad9f08468be995",
+  "active": "1961e197770f9040",
   "lastOpenFiles": [
-    "Software Engineering/Introduction to Software Engineering.md",
     "Software Engineering/Diagrams and the Final Project.md",
+    "Software Engineering/Introduction to Software Engineering.md",
     "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
     "Introduction to Artificial Intelligence/Classification.md",
     "Introduction to Modelling and Simulation/State Functions and Objects.md",
