@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
-                "mode": "preview",
+                "file": "Software Engineering/Diagrams and the Final Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89e8faf5942656b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Introduction to Software Engineering.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
+                "file": "Software Engineering/Diagrams and the Final Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
+                "file": "Software Engineering/Diagrams and the Final Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Supervised Learning and Regression.md"
+                "file": "Software Engineering/Diagrams and the Final Project.md"
               }
             }
           }
@@ -148,12 +160,13 @@
   },
   "active": "19ad9f08468be995",
   "lastOpenFiles": [
-    "Introduction to Artificial Intelligence/Classification.md",
+    "Software Engineering/Introduction to Software Engineering.md",
+    "Software Engineering/Diagrams and the Final Project.md",
     "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
+    "Introduction to Artificial Intelligence/Classification.md",
     "Introduction to Modelling and Simulation/State Functions and Objects.md",
     "Introduction to Modelling and Simulation/Computation with Units.md",
     "Introduction to Modelling and Simulation/Modelling and Simulation in Jupyter Notebooks.md",
-    "Software Engineering/Introduction to Software Engineering.md",
     "Research Methods/Research Methods Journal.md",
     "Data Structures and Algorithms/Java Collections Framework.md",
     "Data Structures and Algorithms/Generics.md",
