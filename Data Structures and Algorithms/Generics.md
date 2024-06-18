@@ -38,7 +38,7 @@ class ArrayList<String> {
 <br>As a _base type_ a parent reference (superclass) can be used to hold an object of its child class, but not for parameter types.
 
 ```Java
-
+ResearchMethods.presents(Nyameye + "Kiki" + Akumia)
 ```
 <br>The _parameter types_ should be reference types, **not** primitive types.
 

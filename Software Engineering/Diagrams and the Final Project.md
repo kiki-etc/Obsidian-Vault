@@ -21,7 +21,6 @@ Examples of behavioral/dynamic diagrams
 >[!note]
 >You can use ChatGPT paired with PlantUML to auto-generate UML diagrams
 
-
 # High-level diagrams
 # Use case diagrams
 # Class diagrams
