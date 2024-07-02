@@ -1,7 +1,7 @@
 Research Methods – Assignment 1 (Nyameye Akumia)
 
 >[!topic]
->Comparative Analysis of Dataset Generation Techniques and Surveillance Capabilities in Developed versus Developing Countries: A Case Study of Natural Language Processing in the United States versus Ghana
+>An Analysis of Dataset Generation Techniques in Developing Countries: A Case Study of Natural Language Processing in Ghana
 
 ## Describing the Problem Space
 <br>In the contemporary global economy, the ability to collect, manage, and utilize data effectively is very crucial and has been revolutionized by Artificial Intelligence (AI) – which relies heavily on huge datasets. However, there is a significant disparity between developed and developing countries in terms of data collection and surveillance capabilities.

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Diagrams and the Final Project.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1961e197770f9040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Artificial Intelligence/Ensemble Learning.md",
+                "file": "Research Methods/Chapter 1-3 Outlines.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Ensemble Learning.md",
+                "file": "Research Methods/Chapter 1-3 Outlines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Ensemble Learning.md",
+                "file": "Research Methods/Chapter 1-3 Outlines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Artificial Intelligence/Ensemble Learning.md"
+                "file": "Research Methods/Chapter 1-3 Outlines.md"
               }
             }
           }
@@ -159,24 +146,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1961e197770f9040",
+  "active": "19ad9f08468be995",
   "lastOpenFiles": [
-    "Introduction to Artificial Intelligence/Numpy, Pandas, Databases.md",
+    "Research Methods/Research Methods Journal.md",
+    "Research Methods/Chapter 1-3 Outlines.md",
     "Introduction to Artificial Intelligence/Ensemble Learning.md",
-    "Data Structures and Algorithms/Generics.md",
+    "Software Engineering/Midsemester Exam Notes.md",
+    "Data Structures and Algorithms/Algorithms.md",
+    "Data Structures and Algorithms/Java Collections Framework.md",
+    "Data Structures and Algorithms/Intro Class.md",
+    "Introduction to Artificial Intelligence/Background and Overview.md",
     "Software Engineering/Diagrams and the Final Project.md",
+    "Introduction to Modelling and Simulation/Mid-semester Exam Notes.md",
+    "Introduction to Artificial Intelligence/Numpy, Pandas, Databases.md",
+    "Data Structures and Algorithms/Generics.md",
     "Introduction to Artificial Intelligence/Supervised Learning and Regression.md",
     "Introduction to Modelling and Simulation/Modelling and Simulation in Jupyter Notebooks.md",
-    "Data Structures and Algorithms/Java Collections Framework.md",
     "Software Engineering/Introduction to Software Engineering.md",
     "Introduction to Artificial Intelligence/Classification.md",
     "Introduction to Modelling and Simulation/State Functions and Objects.md",
     "Introduction to Modelling and Simulation/Computation with Units.md",
-    "Research Methods/Research Methods Journal.md",
     "Data Structures and Algorithms/Strings and Enumerated Types.md",
-    "Data Structures and Algorithms/Algorithms.md",
     "Data Structures and Algorithms/Formal Analysis of Algorithms.md",
-    "Data Structures and Algorithms/Intro Class.md",
     "Data Structures and Algorithms/Arrays.md"
   ]
 }

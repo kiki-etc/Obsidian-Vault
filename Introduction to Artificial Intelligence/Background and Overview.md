@@ -6,7 +6,7 @@
 (1969) Third Industrial Revolution - silicon-based microprocessors, computers & electronics, The Automated Factory
 (Today) Fourth Industrial Revolution - cyber physical systems, IoT, The Intelligent Factory
 
->[!note]- The 4IR Components
+>[!note] The 4IR Components
 >1. Development of faster computing hardware
 >2. Availability of high speed communication infrastructure
 >3. Development of bolder algorithms
