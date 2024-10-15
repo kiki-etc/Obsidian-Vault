@@ -1,0 +1,1 @@
+A data structure is a representation of data and the operations that are allowed on said data.
