@@ -100,4 +100,26 @@ It requires 4 tables:
 To access a certain location in memory, a three-dimensional addressing scheme (with the `SEGMENT_NUMBER`, the `PAGE_NUMBER` and the `DISPLACEMENT`) is used. The major disadvantages are twofold: the overhead that is required to manage the tables (Segment Map Tables and the Page Map Tables), and the time required to reference them. To minimize the number of references, many systems take advantage of associative memory to speed up the process.
 Associative memory is a name given to several registers that are allocated to each job that is active. Their task is to associate several segment and page numbers, belonging to the job being processed, with their main memory addresses.
 # Virtual Memory
-This gives the illusion that the computer has much more memory than it actually has. That is, it allows very large jobs to be executed even though they require large amounts of main memory. 
+This gives the illusion that the computer has much more memory than it actually has. That is, it allows very large jobs to be executed even though they require large amounts of main memory. With virtual memory, even though only a portion of each program is stored in memory at any given moment, by swapping pages into and out of memory, it gives users the appearance that their programs are completely loaded into main memory during their entire processing time.<br>
+It can be implemented with both paging and segmentation.
+Using paging, it allows internal fragmentation and not external fragmentation; programs are divided into equal sized pages and the absolute address is calculated using the page number and displacement.
+With segmentation, it doesn't allow internal fragmentation but allows external fragmentation. Programs are divided into unequal-sized segments that contain logical groupings of code. The absolute address is calculated using the segment number and displacement.<br>
+Virtual memory advantages:
+- Job's size is no longer restricted to the size of main memory
+- Memory is used more efficiently because the only sections of a job stored in memory are those needed immediately
+- It allows an unlimited amount of multiprogramming, which can apply to many jobs, as in dynamic and static partitioning; or to many users
+- It allows the sharing of code and data
+- It facilitates the dynamic linking of program segments
+
+The advantages far outweigh the disadvantages, which include:
+- Increased processor hardware costs
+- Increased overhead for handling paging interrupts
+- Increased software complexity to prevent thrashing
+# Cache Memory
+Cache memory is based on the concept of using a small, fast, and expensive memory to supplement the workings of main memory. Data or instructions that are frequently accessed are stored here so they can be accessed and processed/executed faster - boosting performance.<br>
+A typical microprocessor has two or more cache levels. In a simple configuration, information enters the processor through the bus interface unit, which immediately sends one copy to the Level 2 (L2) cache, which is connected directly to the CPU. A second copy is sent to one of two L1 caches, which are built directly into the chip. On of these L1 caches stores instructions while the other stores data to be used by the instructions.<br>
+When designing cache memory, four factors are important:
+- cache size
+- block size: because of the *principle of locality of reference*, as block size increases, the ratio of the number of references found in the cache to the total number of references will tend to increase
+- block replacement algorithm: it is important to replace blocks that are least likely to be used in the future (typically the LRU replacement scheme)
+- rewrite policy: when the contents of a block in cache are changed, it must be written back to main memory before it is replaced by another block. rewriting every time there's a change can cause an increase in overhead but waiting for the block to be replaced may be problematic in multiprocessor environments (and in cases where I/O modules can access main memory directly)
